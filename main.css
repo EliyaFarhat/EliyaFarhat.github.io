@@ -397,15 +397,18 @@ button:active img {
 }
 .botHeader {
   position: relative;
-  background-color: #0a0a0a;
+  background-color: #0a0a0a00;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
   top: 90px;
   height: 150px;
   z-index: 0;
-  width: 102%;
-  left: -1.4%;
-  height: 210px;
+  width: 100%;
+  height: 150px;
+  padding: 0px;
+}
+.botHeader a {
+  font-size: 15px;
 }
 /* Mobile :320px. */
 @media screen and (max-width: 1050px) and (min-width: 281px) {
