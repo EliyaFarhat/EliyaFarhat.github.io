@@ -408,7 +408,7 @@ button:active img {
   height: 210px;
 }
 /* Mobile :320px. */
-@media screen and (max-width: 950px) and (min-width: 281px) {
+@media screen and (max-width: 1050px) and (min-width: 281px) {
   .logo {
     font-size: 5.8vw;
   }
