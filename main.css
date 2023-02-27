@@ -478,12 +478,6 @@ button:active img {
   .modebar {
     content-visibility: hidden;
   }
-  .botHeader {
-    background-color: #0a0a0a00;
-  }
-  .botHeader a {
-    font-size: 10px;
-  }
 }
 
 @media screen and (max-width: 280px) and (min-width: 100px) {
