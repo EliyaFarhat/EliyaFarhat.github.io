@@ -474,9 +474,13 @@ button:active img {
   }
   .sidebar {
     content-visibility: hidden;
+    display: none;
+    opacity: 0;
   }
   .modebar {
     content-visibility: hidden;
+    display: none;
+    opacity: 0;
   }
 }
 
