@@ -17,13 +17,25 @@ header {
   z-index: 2;
 }
 .hold {
-  height: 80px;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
+  text-align: center;
+  display: block;
 }
 header h1 {
   position: relative;
 
   font-size: 4.5rem;
+}
+.hold a {
+  position: relative;
+}
+.hold img {
+  height: 60px;
+  width: 60px;
+}
+#email {
+  height: 60px;
+  width: 70px;
 }
 
 /* Splash/Intro */
