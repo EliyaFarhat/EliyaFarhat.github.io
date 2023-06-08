@@ -34,8 +34,8 @@ header h1 {
   width: 60px;
 }
 #email {
-  height: 57px;
-  width: 68px;
+  height: 60px;
+  width: 70px;
 }
 
 /* Splash/Intro */
@@ -501,9 +501,11 @@ button:active img {
   }
   .sidebar {
     content-visibility: hidden;
+    display: none;
   }
   .modebar {
     content-visibility: hidden;
+    display: none;
   }
 }
 
@@ -524,8 +526,10 @@ button:active img {
   }
   .sidebar {
     content-visibility: hidden;
+    display: none;
   }
   .modebar {
     content-visibility: hidden;
+    display: none;
   }
 }
