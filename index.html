@@ -67,13 +67,14 @@
         <h1 align="center" class="ab-name" id="name">S O F T W A R E&nbsp; D E V E L O P E R&nbsp;/&nbsp;S T U D E N T</h1>
         <hr />
         <p align="center" id="maintext">
-          I won't waste your time, I study computer science, I like to code, and I am every dogs best friend.
+          I won't waste your time, I study computer science, I like to code, and I'm every dogs best friend.
         </p>
       </div>
       <div class="project-list">
         <h1 align="center" id="maintext2">R E S U M E</h1>
         <hr />
         <embed id ="resumepdf" src="Eliya_Farhat_Resume_Final.pdf" type="application/pdf"></embed>
+        <a href="Eliya_Farhat_Resume_Final.pdf" download id="downloadpdf"><img src="pdf-outline.png" id="pdfimg">PDF Download</a>
       </div>
       <div class="portfolio">
         <h1 align="center" id="porttitle">P O R T F O L I O</h1>
@@ -222,6 +223,12 @@
         temp6.style.backgroundColor = "white";
         const tempp6 = document.getElementById("tempp6");
         tempp6.style.color = "black";
+
+        const downl = document.getElementById("downloadpdf");
+        downl.style.color = "blue";
+
+        const pdfimg = document.getElementById("pdfimg");
+        pdfimg.src="pdf-outline.png"
       });
       const btn2 = document.getElementById("litebtn");
       btn2.addEventListener("click", function onClick(event) {
@@ -268,6 +275,10 @@
         temp6.style.backgroundColor = "#1A1B27";
         const tempp6 = document.getElementById("tempp6");
         tempp6.style.color = "#38BDAE";
+        const downl = document.getElementById("downloadpdf");
+        downl.style.color = "#58a6ff";
+        const pdfimg = document.getElementById("pdfimg");
+        pdfimg.src="pdf-outlinew.png"
       });
     </script>
   </body>
